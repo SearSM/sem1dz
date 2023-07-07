@@ -12,4 +12,4 @@ int numberC = int.Parse(Console.ReadLine());
 int max = numberA;
 if (numberB > max) max = numberB;
 if (numberC > max) max = numberC;
-Console.WriteLine($"Максимально число: {max}");
+Console.WriteLine($"Максимальное число: {max}");
