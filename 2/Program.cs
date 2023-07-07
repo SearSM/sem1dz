@@ -2,3 +2,14 @@
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
+
+Console.Write("Введите первое число: ");
+int numberA = int.Parse(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int numberB = int.Parse(Console.ReadLine());
+Console.Write("Введите третье число: ");
+int numberC = int.Parse(Console.ReadLine());
+int max = numberA;
+if (numberB > max) max = numberB;
+if (numberC > max) max = numberC;
+Console.WriteLine($"Максимально число: {max}");
